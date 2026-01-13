@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f4f4f4;
+}
+
+header {
+    background: #c40000;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.planos {
+    padding: 20px;
+    text-align: center;
+}
+
+.plano {
+    background: white;
+    margin: 10px auto;
+    padding: 15px;
+    width: 250px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.plano button {
+    background: #c40000;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.acoes {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 30px;
+    flex-wrap: wrap;
+}
+
+.acoes button {
+    margin: 5px;
+    padding: 12px;
+    width: 200px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+.pix {
+    background: green;
+}
+
+.suporte {
+    background: #333;
+}
+
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}																					@media (min-width: 768px) {
+    .plano {
+        display: inline-block;
+        margin: 15px;
+    }
+}
